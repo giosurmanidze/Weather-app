@@ -1,13 +1,15 @@
 <template>
-  <div class="font-Poppins">
-    Hello vue
+  <div class="flex flex-col min-h-screen font-Poppins bg-weather-primary">
+    <Navigation />
   </div>
 </template>
 
-<script setup>
+<script>
+import Navigation from './components/Navigation.vue'
 
+export default {
+  components: {
+    Navigation
+  }
+}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
