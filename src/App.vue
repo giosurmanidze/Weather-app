@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-Poppins">
     Hello vue
   </div>
 </template>
